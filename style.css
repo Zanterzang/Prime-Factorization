@@ -1,0 +1,74 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+div {
+    height: 9.5vh;
+    width: 9.5vh;
+    color: white;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 9.5vh;
+    display: inline-block;
+    font-size: 4.5vh;
+    margin-top: 4.5px;
+    border-radius: 50%;
+}
+        
+#gen {
+    border-style: block;
+    border-color: white;
+    border-width: 5px;
+    height: 6vh;
+    line-height: 5vh;
+    border-radius: 10px;
+    width: auto;
+    background-image: linear-gradient(45deg, #444444 0%, #555555 60%, #aaaaaa 100%);
+}
+
+#gen:hover {
+    background-image: linear-gradient(45deg, #aaaaaa 0%, #999999 60%, #444444 100%);
+}
+
+#I {
+    background-color: white;
+    color: black;
+}
+
+#II {
+    background-color: rgb(255, 0, 0);
+}
+
+#III {
+    background-color: rgb(0, 0, 255);
+}
+
+#IV {
+    background-color: #ff0000;
+}
+
+#V {
+    background-color: rgb(0, 255, 0);
+}
+
+#VI {
+    background-image: conic-gradient(#ff0000 0deg, #ff0000 180deg, #0000ff 180deg, #0000ff 360deg);
+}
+
+#VII {
+    background-color: rgb(255, 255, 0);
+    color: black;
+}
+
+#VIII {
+    background-color: #ff0000;
+}
+
+#IX {
+    background-color: #0000ff;
+}
+
+#X {
+    background-image: conic-gradient(#ff0000 0deg, #ff0000 180deg, #00ff00 180deg, #00ff00 360deg);
+}
