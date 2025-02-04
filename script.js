@@ -33,7 +33,7 @@ function multiply(...args) {
 }
 function generate() {
     for (i=numofnum+1; i<numofnum+6; i++) {
-        parent.insertBefore(document.createTextNode(" "), btn)
+        parent.insertBefore(document.createTextNode("\n"), btn)
         if (isprime(i)) {
             numbers.push([document.createElement("div"), `rgb(${randomint(0, 255)} ${randomint(0, 255)} ${randomint(0,255)})`]);
             numbers[i-1][0].textContent = i;
